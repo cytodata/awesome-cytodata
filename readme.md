@@ -8,7 +8,14 @@
 - [Software](#software)
 - [Datasets](#datasets)
 - [Publications](#publications)
-
+  - [Review](#review)
+  - [Software](#software)
+  - [Applications](#applications)
+  - [Assays and data collection](#assays)
+  - [Feature extraction](#extraction)
+  - [Data preparation](#preparation)
+  - [Profiling](#profiling)
+  - [Analysis](#analysis)
 
 ## Software
 
@@ -46,6 +53,11 @@ Publications related to image-based profiling having minimum of 50 citations by 
 - [Microscopy-based high-content screening](https://doi.org/10.1016/j.cell.2015.11.007) Describe the state of the art for image-based screening experiments and delineate experimental approaches and image-analysis approaches as well as discussing challenges and future directions, including leveraging CRISPR/Cas9-mediated genome engineering.
 
 
+### Applications
+
+- [Phenotypic profiling of the human genome by time-lapse microscopy reveals cell division genes](https://doi.org/10.1038/nature08869) This study provides an in-depth analysis of cell division phenotypes and makes the entire high-content data set available as a resource to the community.
+
+
 ### Software
 
 - [CellProfiler: image analysis software for identifying and quantifying cell phenotypes](https://doi.org/10.1186/gb-2006-7-10-r100) Describe the first free, open-source system designed for flexible, high-throughput cell image analysis, CellProfiler.
@@ -53,6 +65,11 @@ Publications related to image-based profiling having minimum of 50 citations by 
 - [CellProfiler Analyst: data exploration and analysis software for complex image-based screens](https://doi.org/10.1186/1471-2105-9-482) Describe an open-source software package called "CellProfiler Analyst".
 
 - [Improved structure, function and compatibility for CellProfiler: modular high-throughput image analysis software](https://doi.org/10.1093/bioinformatics/btr095) describe CellProfiler 2.0, which has been engineered to meet the needs of its growing user base. It is more robust and user friendly, with new algorithms and features to facilitate high-throughput work.
+
+
+### Assays and data collection
+
+- [Cell Painting, a high-content image-based assay for morphological profiling using multiplexed fluorescent dyes](https://doi.org/10.1038/nprot.2016.105) Protocol describing the design and execution of experiments using Cell Painting.
 
 
 ### Feature extraction
