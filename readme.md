@@ -62,26 +62,34 @@ Publications related to image-based profiling having minimum of 50 citations by 
 ### Assays and data collection
 
 - [Cell Painting, a high-content image-based assay for morphological profiling using multiplexed fluorescent dyes](https://doi.org/10.1038/nprot.2016.105) Protocol describing the design and execution of experiments using Cell Painting.
-
+- [Multiplex Cytological Profiling Assay to Measure Diverse Cellular States](https://doi.org/10.1371/journal.pone.0080999) Cell Painting assay.
 
 ### Feature extraction
 
-- [List item](http://example.com)
+Feature extraction including image analysis and image quality control.
+
+- [Retrospective shading correction based entropy minimization](https://doi.org/10.1046/j.1365-2818.2000.00669.x) Method for retrospective shading correction based on entropy minimization.
 
 
 ### Data preparation
 
-- [List item](http://example.com)
+Data preparation including preprocessing extracted features and dimensionality reduction.
+
+- [Minimum redundancy feature selection from microarray gene expression data](https://doi.org/10.1142/S0219720005001004) Minimum redundancy - maximum relevance feature selection framework.
 
 
 ### Profiling
+
+Profiling including single-cell data aggregation.
 
 - [List item](http://example.com)
 
 
 ### Analysis
 
-- [List item](http://example.com)
+Analysis including profile similarity measurement, assay quality assessment and downstream analysis.
+
+- [Image-based multivariate profiling of drug responses from single cells](https://doi.org/10.1038/nmeth1032) a multivariate method for classifying untreated and treated human cancer cells based on ∼300 single-cell phenotypic measurements.
 
 
 ## Contribute
