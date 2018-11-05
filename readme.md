@@ -25,6 +25,7 @@ Open source software packages for image-based profiling of biological phenotypes
 - [CellProfiler](http://cellprofiler.org/) CellProfiler is a free open-source software for measuring and analyzing cell images.
 - [CellProfiler Analyst](http://cellprofiler.org/cp-analyst/) Interactive data exploration, analysis, and classification of large biological image sets.
 - [Cytominer](https://github.com/cytomining/cytominer) Methods for image-based cell profiling.
+- [EBImage](https://github.com/aoles/EBImage) Image processing toolbox for R.
 - [HTSvis](http://htsvis.dkfz.de/HTSvis/) A web app for exploratory data analysis and visualization of arrayed high-throughput screens.
 
 
