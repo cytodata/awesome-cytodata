@@ -9,11 +9,11 @@
 - [Datasets](#datasets)
 - [Publications](#publications)
   - [Review](#review)
-  - [Software](#software)
+  - [Software](#software-1)
   - [Applications](#applications)
-  - [Assays and data collection](#assays)
-  - [Feature extraction](#extraction)
-  - [Data preparation](#preparation)
+  - [Assays and data collection](#assays-and-data-collection)
+  - [Feature extraction](#feature-extraction)
+  - [Data preparation](#data-preparation)
   - [Profiling](#profiling)
   - [Analysis](#analysis)
 
@@ -22,13 +22,9 @@
 Open source software packages for image-based profiling of biological phenotypes.
 
 - [Advanced Cell Classifier](https://www.cellclassifier.org/) Advanced Cell Classifier is a data analyzer program to evaluate cell-based high-content screens and tissue section images.
-
 - [CellProfiler](http://cellprofiler.org/) CellProfiler is a free open-source software for measuring and analyzing cell images.
-
 - [CellProfiler Analyst](http://cellprofiler.org/cp-analyst/) Interactive data exploration, analysis, and classification of large biological image sets.
-
 - [Cytominer](https://github.com/cytomining/cytominer) Methods for image-based cell profiling.
-
 - [HTSvis](http://htsvis.dkfz.de/HTSvis/) A web app for exploratory data analysis and visualization of arrayed high-throughput screens.
 
 
@@ -47,9 +43,7 @@ Publications related to image-based profiling having minimum of 50 citations by 
 ### Review
 
 - [Data-analysis strategies for image-based cell profiling](https://doi.org/10.1038/nmeth.4397) Introduce the steps required to create high-quality image-based (i.e., morphological) profiles from a collection of microscopy images.
-
 - [High-content screening for quantitative cell biology](https://doi.org/10.1016/j.tcb.2016.03.008) Describe some recent applications of HCS, ranging from the identification of genes required for specific biological processes to the characterization of genetic interactions.
-
 - [Microscopy-based high-content screening](https://doi.org/10.1016/j.cell.2015.11.007) Describe the state of the art for image-based screening experiments and delineate experimental approaches and image-analysis approaches as well as discussing challenges and future directions, including leveraging CRISPR/Cas9-mediated genome engineering.
 
 
@@ -61,9 +55,7 @@ Publications related to image-based profiling having minimum of 50 citations by 
 ### Software
 
 - [CellProfiler: image analysis software for identifying and quantifying cell phenotypes](https://doi.org/10.1186/gb-2006-7-10-r100) Describe the first free, open-source system designed for flexible, high-throughput cell image analysis, CellProfiler.
-
 - [CellProfiler Analyst: data exploration and analysis software for complex image-based screens](https://doi.org/10.1186/1471-2105-9-482) Describe an open-source software package called "CellProfiler Analyst".
-
 - [Improved structure, function and compatibility for CellProfiler: modular high-throughput image analysis software](https://doi.org/10.1093/bioinformatics/btr095) describe CellProfiler 2.0, which has been engineered to meet the needs of its growing user base. It is more robust and user friendly, with new algorithms and features to facilitate high-throughput work.
 
 
