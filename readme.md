@@ -9,13 +9,15 @@
 - [Datasets](#datasets)
 - [Publications](#publications)
   - [Review](#review)
-  - [Software](#software-1)
   - [Applications](#applications)
-  - [Assays and data collection](#assays-and-data-collection)
-  - [Feature extraction](#feature-extraction)
-  - [Data preparation](#data-preparation)
-  - [Profiling](#profiling)
-  - [Analysis](#analysis)
+    - [Compound profiling](#compound-profiling)
+    - [Genetic profiling](#genetic-profiling)
+  - [Methods](#methods)
+    - [Assays and data collection](#assays-and-data-collection)
+    - [Image data processing, segmentation and feature extraction](#image-data-processing-segmentation-and-feature-extraction)
+    - [Feature selection](#feature-selection)
+    - [Representation learning](#representation-learning)
+  - [Software](#software-1)
 
 ## Software
 
@@ -82,8 +84,10 @@ Publications related to image-based profiling.
 
 ### Software
 
+- [Advanced Cell Classifier: User-Friendly Machine-Learning-Based Software for Discovering Phenotypes in High-Content Imaging Data](https://doi.org/10.1016/j.cels.2017.05.012) A software package for exploration, annotation and classification of cells within large datasets using machine learning.
 - [CellProfiler: image analysis software for identifying and quantifying cell phenotypes](https://doi.org/10.1186/gb-2006-7-10-r100) Describe the first free, open-source system designed for flexible, high-throughput cell image analysis, CellProfiler.
 - [CellProfiler Analyst: data exploration and analysis software for complex image-based screens](https://doi.org/10.1186/1471-2105-9-482) Describe an open-source software package called "CellProfiler Analyst".
+- [CellProfiler 3.0: Next-generation image processing for biology](https://doi.org/10.1371/journal.pbio.2005970) CellProfiler 3.0, a new version of the software supporting both whole-volume and plane-wise analysis of three-dimensional (3D) image stacks.
 - [Improved structure, function and compatibility for CellProfiler: modular high-throughput image analysis software](https://doi.org/10.1093/bioinformatics/btr095) describe CellProfiler 2.0, which has been engineered to meet the needs of its growing user base. It is more robust and user friendly, with new algorithms and features to facilitate high-throughput work.
 
 
