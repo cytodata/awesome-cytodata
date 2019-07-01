@@ -34,11 +34,12 @@ Open source software packages for image-based profiling of biological phenotypes
 Annotated datasets for image-based profiling.
 
 - [Broad Bioimage Benchmark Collection](https://data.broadinstitute.org/bbbc/) The Broad Bioimage Benchmark Collection (BBBC) is a collection of freely downloadable microscopy image sets. In addition to the images themselves, each set includes a description of the biological application and some type of "ground truth" (expected results).
+- [RxRx1](https://www.rxrx.ai) RxRx1 is a set of 125,514 high-resolution 512x512 6-channel fluorescence microscopy images of human cells under 1,108 genetic perturbations in 51 experimental batches across four cell types.  The images were produced by Recursion Pharmaceuticals in their labs in Salt Lake City, Utah.  Researchers will use this dataset for studying and benchmarking methods for dealing with biological batch effects, as well as areas in machine learning such as domain adaptation, transfer learning, and k-shot learning.
 
 
 ## Publications
 
-Publications related to image-based profiling having minimum of 50 citations by Google Scholar.
+Publications related to image-based profiling.
 
 
 ### Review
@@ -50,47 +51,40 @@ Publications related to image-based profiling having minimum of 50 citations by 
 
 ### Applications
 
+#### Genetic profiling
+
+- [Discovering metabolic disease gene interactions by correlated effects on cellular morphology](https://doi.org/10.1016/j.molmet.2019.03.001) Profiling disease-gene interaction during adipocyte differentiation.
 - [Phenotypic profiling of the human genome by time-lapse microscopy reveals cell division genes](https://doi.org/10.1038/nature08869) This study provides an in-depth analysis of cell division phenotypes and makes the entire high-content data set available as a resource to the community.
 
+#### Compound profiling
+
+- [Image-based multivariate profiling of drug responses from single cells](https://doi.org/10.1038/nmeth1032) a multivariate method for classifying untreated and treated human cancer cells based on ∼300 single-cell phenotypic measurements.
+
+### Methods
+
+#### Assays and data collection
+
+- [Cell Painting, a high-content image-based assay for morphological profiling using multiplexed fluorescent dyes](https://doi.org/10.1038/nprot.2016.105) Protocol describing the design and execution of experiments using Cell Painting.
+- [Multiplex Cytological Profiling Assay to Measure Diverse Cellular States](https://doi.org/10.1371/journal.pone.0080999) Cell Painting assay.
+
+#### Image data processing, segmentation and feature extraction
+
+- [CIDRE: an illumination-correction method for optical microscopy](https://doi.org/10.1038/nmeth.3323) Retrospective method for illumination-correction based on energy minimization.
+- [Retrospective shading correction based entropy minimization](https://doi.org/10.1046/j.1365-2818.2000.00669.x) Method for retrospective shading correction based on entropy minimization.
+
+#### Feature selection
+
+- [Minimum redundancy feature selection from microarray gene expression data](https://doi.org/10.1142/S0219720005001004) Minimum redundancy - maximum relevance feature selection framework.
+
+#### Representation learning
+
+- [Weakly supervised learning of single-cell feature embeddings](https://doi.org/10.1109/CVPR.2018.00970) Training CNNs using a weakly supervised approach for feature learning.
 
 ### Software
 
 - [CellProfiler: image analysis software for identifying and quantifying cell phenotypes](https://doi.org/10.1186/gb-2006-7-10-r100) Describe the first free, open-source system designed for flexible, high-throughput cell image analysis, CellProfiler.
 - [CellProfiler Analyst: data exploration and analysis software for complex image-based screens](https://doi.org/10.1186/1471-2105-9-482) Describe an open-source software package called "CellProfiler Analyst".
 - [Improved structure, function and compatibility for CellProfiler: modular high-throughput image analysis software](https://doi.org/10.1093/bioinformatics/btr095) describe CellProfiler 2.0, which has been engineered to meet the needs of its growing user base. It is more robust and user friendly, with new algorithms and features to facilitate high-throughput work.
-
-
-### Assays and data collection
-
-- [Cell Painting, a high-content image-based assay for morphological profiling using multiplexed fluorescent dyes](https://doi.org/10.1038/nprot.2016.105) Protocol describing the design and execution of experiments using Cell Painting.
-- [Multiplex Cytological Profiling Assay to Measure Diverse Cellular States](https://doi.org/10.1371/journal.pone.0080999) Cell Painting assay.
-
-### Feature extraction
-
-Feature extraction including image analysis and image quality control.
-
-- [Retrospective shading correction based entropy minimization](https://doi.org/10.1046/j.1365-2818.2000.00669.x) Method for retrospective shading correction based on entropy minimization.
-
-
-### Data preparation
-
-Data preparation including preprocessing extracted features and dimensionality reduction.
-
-- [Minimum redundancy feature selection from microarray gene expression data](https://doi.org/10.1142/S0219720005001004) Minimum redundancy - maximum relevance feature selection framework.
-
-
-### Profiling
-
-Profiling including single-cell data aggregation.
-
-- [List item](http://example.com)
-
-
-### Analysis
-
-Analysis including profile similarity measurement, assay quality assessment and downstream analysis.
-
-- [Image-based multivariate profiling of drug responses from single cells](https://doi.org/10.1038/nmeth1032) a multivariate method for classifying untreated and treated human cancer cells based on ∼300 single-cell phenotypic measurements.
 
 
 ## Contribute
