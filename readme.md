@@ -15,7 +15,7 @@
   - [Methods](#methods)
     - [Assays and data collection](#assays-and-data-collection)
     - [Image data processing, segmentation and feature extraction](#image-data-processing-segmentation-and-feature-extraction)
-    - [Feature selection](#feature-selection)
+    - [Feature processing and selection](#feature-processing-and-selection)
     - [Representation learning](#representation-learning)
   - [Software](#software-1)
 
@@ -36,6 +36,7 @@ Open source software packages for image-based profiling of biological phenotypes
 Annotated datasets for image-based profiling.
 
 - [Broad Bioimage Benchmark Collection](https://data.broadinstitute.org/bbbc/) The Broad Bioimage Benchmark Collection (BBBC) is a collection of freely downloadable microscopy image sets. In addition to the images themselves, each set includes a description of the biological application and some type of "ground truth" (expected results).
+- [Image Data Resource](https://idr.openmicroscopy.org/) Public repository of image datasets from published scientific studies.
 - [RxRx1](https://www.rxrx.ai) RxRx1 is a set of 125,514 high-resolution 512x512 6-channel fluorescence microscopy images of human cells under 1,108 genetic perturbations in 51 experimental batches across four cell types.  The images were produced by Recursion Pharmaceuticals in their labs in Salt Lake City, Utah.  Researchers will use this dataset for studying and benchmarking methods for dealing with biological batch effects, as well as areas in machine learning such as domain adaptation, transfer learning, and k-shot learning.
 
 
@@ -53,14 +54,15 @@ Publications related to image-based profiling.
 
 ### Applications
 
+#### Compound profiling
+
+- [Image-based multivariate profiling of drug responses from single cells](https://doi.org/10.1038/nmeth1032) a multivariate method for classifying untreated and treated human cancer cells based on ∼300 single-cell phenotypic measurements.
+
 #### Genetic profiling
 
 - [Discovering metabolic disease gene interactions by correlated effects on cellular morphology](https://doi.org/10.1016/j.molmet.2019.03.001) Profiling disease-gene interaction during adipocyte differentiation.
 - [Phenotypic profiling of the human genome by time-lapse microscopy reveals cell division genes](https://doi.org/10.1038/nature08869) This study provides an in-depth analysis of cell division phenotypes and makes the entire high-content data set available as a resource to the community.
 
-#### Compound profiling
-
-- [Image-based multivariate profiling of drug responses from single cells](https://doi.org/10.1038/nmeth1032) a multivariate method for classifying untreated and treated human cancer cells based on ∼300 single-cell phenotypic measurements.
 
 ### Methods
 
@@ -74,12 +76,14 @@ Publications related to image-based profiling.
 - [CIDRE: an illumination-correction method for optical microscopy](https://doi.org/10.1038/nmeth.3323) Retrospective method for illumination-correction based on energy minimization.
 - [Retrospective shading correction based entropy minimization](https://doi.org/10.1046/j.1365-2818.2000.00669.x) Method for retrospective shading correction based on entropy minimization.
 
-#### Feature selection
+#### Feature processing and selection
 
+- [Capturing single-cell heterogeneity via data fusion improves image-based profiling](https://doi.org/10.1038/s41467-019-10154-8) Adds dispersion and covariances to population averages to capture single-cell heterogeneity.
 - [Minimum redundancy feature selection from microarray gene expression data](https://doi.org/10.1142/S0219720005001004) Minimum redundancy - maximum relevance feature selection framework.
 
 #### Representation learning
 
+- [Learning unsupervised feature representations for single cell microscopy images with paired cell painting](https://doi.org/10.1101/395954) Selfsupervised method to learn feature representations of single cells in microscopy images without labelled training data.
 - [Weakly supervised learning of single-cell feature embeddings](https://doi.org/10.1109/CVPR.2018.00970) Training CNNs using a weakly supervised approach for feature learning.
 
 ### Software
