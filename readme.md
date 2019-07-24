@@ -13,12 +13,40 @@ Our goal is to provide researchers, both new and established, a place to discove
 
 ## Contents
 
-- [Software](#software)
 - [Datasets](#datasets)
+  - [Raw Images](#raw images)
+  - [Chemical Perturbations](#chemical perturbations)
+  - [Genetic Perturbations](#genetic perturbations)
+- [Software](#software)
 - [Publications](#publications)
-  - [Review](#review)
+  - [Reviews](#reviews)
   - [Applications](#applications)
   - [Methods](#methods)
+
+## Datasets
+
+Annotated datasets for image-based profiling. Raw and processed profile data for profiling chemical and genetic perturbations.
+
+### Raw Images
+
+- [Broad Bioimage Benchmark Collection](https://data.broadinstitute.org/bbbc/) - The Broad Bioimage Benchmark Collection (BBBC) is a collection of freely downloadable microscopy image sets. In addition to the images themselves, each set includes a description of the biological application and some type of "ground truth" (expected results).
+- [Image Data Resource](https://idr.openmicroscopy.org/) - Public repository of image datasets from published scientific studies.
+- [RxRx1](https://www.rxrx.ai) - RxRx1 is a set of 125,514 high-resolution 512x512 6-channel fluorescence microscopy images of human cells under 1,108 genetic perturbations in 51 experimental batches across four cell types.  The images were produced by Recursion Pharmaceuticals in their labs in Salt Lake City, Utah.  Researchers will use this dataset for studying and benchmarking methods for dealing with biological batch effects, as well as areas in machine learning such as domain adaptation, transfer learning, and k-shot learning.
+
+### Chemical Perturbations
+
+Publicly available morphological profiles derived from chemical compounds extracted from raw images.
+
+- [Gustafsdottir et al. 2013](https://doi.org/10.1371/journal.pone.0080999) - Cell painting profiles from 1,600 bioactive compounds in U2OS cells. (Access from public S3 bucket: `s3://cytodata/datasets/Bioactives-BBBC022-Gustafsdottir/profiles/Bioactives-BBBC022-Gustafsdottir/`.)
+- [Wawer et al. 2014](https://doi.org/10.1073/pnas.1410933111) - Cell painting profiles from 31,770 compounds in U2OS cells. ([Click to download.](http://www.broadinstitute.org/mlpcn/data/Broad.PNAS2014.ProfilingData.zip).)
+- [Bray et al. 2017](https://doi.org/10.1093/gigascience/giw014) (Center Driven Research Project _CDRP_) - Cell painting profiles from 30,6116 compounds in U2OS cells. ([Download from GigaDB](https://doi.org/10.5524/100351) or access from public S3 bucket: `s3://cytodata/datasets/CDRPBIO-BBBC036-Bray/profiles_cp/CDRPBIO-BBBC036-Bray/`.)
+
+### Genetic Perturbations
+
+Publicly available CRISPR and overexpression derived morphological profiles extracted from raw images.
+
+- [Rohban et al. 2017](https://doi.org/10.7554/eLife.24060.001) - Cell painting data from 220 overexpressed genes in U2OS cells. (Access from public S3 bucket: `s3://cytodata/datasets/TA-ORF-BBBC037-Rohban/profiles_cp/TA-ORF-BBBC037-Rohban/`.)
+- Unpublished - 3,456 cell painting profiles from CRISPR experiments knocking down 59 genes in A549, ES2, and HCC44 cells. ([GitHub access](https://github.com/broadinstitute/cell-health/tree/master/0.generate-profiles/data/profiles).)
 
 ## Software
 
@@ -31,19 +59,11 @@ Open source software packages for image-based profiling of biological phenotypes
 - [EBImage](https://github.com/aoles/EBImage) - Image processing toolbox for R.
 - [HTSvis](http://htsvis.dkfz.de/HTSvis/) - A web app for exploratory data analysis and visualization of arrayed high-throughput screens.
 
-## Datasets
-
-Annotated datasets for image-based profiling.
-
-- [Broad Bioimage Benchmark Collection](https://data.broadinstitute.org/bbbc/) - The Broad Bioimage Benchmark Collection (BBBC) is a collection of freely downloadable microscopy image sets. In addition to the images themselves, each set includes a description of the biological application and some type of "ground truth" (expected results).
-- [Image Data Resource](https://idr.openmicroscopy.org/) - Public repository of image datasets from published scientific studies.
-- [RxRx1](https://www.rxrx.ai) - RxRx1 is a set of 125,514 high-resolution 512x512 6-channel fluorescence microscopy images of human cells under 1,108 genetic perturbations in 51 experimental batches across four cell types.  The images were produced by Recursion Pharmaceuticals in their labs in Salt Lake City, Utah.  Researchers will use this dataset for studying and benchmarking methods for dealing with biological batch effects, as well as areas in machine learning such as domain adaptation, transfer learning, and k-shot learning.
-
 ## Publications
 
 Publications related to image-based profiling.
 
-### Review
+### Reviews
 
 - [Data-analysis strategies for image-based cell profiling](https://doi.org/10.1038/nmeth.4397) - Introduce the steps required to create high-quality image-based (i.e., morphological) profiles from a collection of microscopy images.
 - [High-content screening for quantitative cell biology](https://doi.org/10.1016/j.tcb.2016.03.008) - Describe some recent applications of HCS, ranging from the identification of genes required for specific biological processes to the characterization of genetic interactions.
