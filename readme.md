@@ -14,9 +14,9 @@ Our goal is to provide researchers, both new and established, a place to discove
 ## Contents
 
 - [Datasets](#datasets)
-  - [Raw Images](#raw images)
-  - [Chemical Perturbations](#chemical perturbations)
-  - [Genetic Perturbations](#genetic perturbations)
+  - [Raw Images](#raw-images)
+  - [Chemical Perturbations](#chemical-perturbations)
+  - [Genetic Perturbations](#genetic-perturbations)
 - [Software](#software)
 - [Publications](#publications)
   - [Reviews](#reviews)
