@@ -37,16 +37,16 @@ Annotated datasets for image-based profiling. Raw and processed profile data for
 
 Publicly available morphological profiles derived from chemical compounds extracted from raw images.
 
-- [Gustafsdottir et al. 2013](https://doi.org/10.1371/journal.pone.0080999) - Cell painting profiles from 1,600 bioactive compounds in U2OS cells. (Access from public S3 bucket: `s3://cytodata/datasets/Bioactives-BBBC022-Gustafsdottir/profiles/Bioactives-BBBC022-Gustafsdottir/`.)
-- [Wawer et al. 2014](https://doi.org/10.1073/pnas.1410933111) - Cell painting profiles from 31,770 compounds in U2OS cells. ([Click to download.](http://www.broadinstitute.org/mlpcn/data/Broad.PNAS2014.ProfilingData.zip).)
-- [Bray et al. 2017](https://doi.org/10.1093/gigascience/giw014) (Center Driven Research Project _CDRP_) - Cell painting profiles from 30,6116 compounds in U2OS cells. ([Download from GigaDB](https://doi.org/10.5524/100351) or access from public S3 bucket: `s3://cytodata/datasets/CDRPBIO-BBBC036-Bray/profiles_cp/CDRPBIO-BBBC036-Bray/`.)
+- [Gustafsdottir et al. 2013](https://doi.org/10.1371/journal.pone.0080999) - Cell painting profiles from 1,600 bioactive compounds in U2OS cells (Access from public S3 bucket: `s3://cytodata/datasets/Bioactives-BBBC022-Gustafsdottir/profiles/Bioactives-BBBC022-Gustafsdottir/`).
+- [Wawer et al. 2014](https://doi.org/10.1073/pnas.1410933111) - Cell painting profiles from 31,770 compounds in U2OS cells ([Click to download](http://www.broadinstitute.org/mlpcn/data/Broad.PNAS2014.ProfilingData.zip)).
+- [Bray et al. 2017](https://doi.org/10.1093/gigascience/giw014) (Center Driven Research Project _CDRP_) - Cell painting profiles from 30,6116 compounds in U2OS cells ([Download from GigaDB](https://doi.org/10.5524/100351) | Access from public S3 bucket: `s3://cytodata/datasets/CDRPBIO-BBBC036-Bray/profiles_cp/CDRPBIO-BBBC036-Bray/`).
 
 ### Genetic Perturbations
 
 Publicly available CRISPR and overexpression derived morphological profiles extracted from raw images.
 
-- [Rohban et al. 2017](https://doi.org/10.7554/eLife.24060.001) - Cell painting data from 220 overexpressed genes in U2OS cells. (Access from public S3 bucket: `s3://cytodata/datasets/TA-ORF-BBBC037-Rohban/profiles_cp/TA-ORF-BBBC037-Rohban/`.)
-- Unpublished - 3,456 cell painting profiles from CRISPR experiments knocking down 59 genes in A549, ES2, and HCC44 cells. ([GitHub access](https://github.com/broadinstitute/cell-health/tree/master/0.generate-profiles/data/profiles).)
+- [Rohban et al. 2017](https://doi.org/10.7554/eLife.24060.001) - Cell painting data from 220 overexpressed genes in U2OS cells (Access from public S3 bucket: `s3://cytodata/datasets/TA-ORF-BBBC037-Rohban/profiles_cp/TA-ORF-BBBC037-Rohban/`).
+- Unpublished - 3,456 cell painting profiles from CRISPR experiments knocking down 59 genes in A549, ES2, and HCC44 cells ([Access from GitHub](https://github.com/broadinstitute/cell-health/tree/master/0.generate-profiles/data/profiles)).
 
 ## Software
 
