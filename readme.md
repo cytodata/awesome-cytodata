@@ -88,6 +88,9 @@ Publications related to image-based profiling.
 - [Minimum redundancy feature selection from microarray gene expression data](https://doi.org/10.1142/S0219720005001004) - Minimum redundancy - maximum relevance feature selection framework.
 - [Learning unsupervised feature representations for single cell microscopy images with paired cell painting](https://doi.org/10.1101/395954) - Selfsupervised method to learn feature representations of single cells in microscopy images without labelled training data.
 - [Weakly supervised learning of single-cell feature embeddings](https://doi.org/10.1109/CVPR.2018.00970) - Training CNNs using a weakly supervised approach for feature learning.
+- [Accurate Prediction of Biological Assays with High-Throughput Microscopy Images and Convolutional Networks](https://doi.org/10.1021/acs.jcim.8b00670) - End-to-end learning with CNNs to predict bioactivity of small molecules in unrelated assays using image-based profiles.
+- [Evaluation of Deep Learning Strategies for Nucleus Segmentation in Fluorescence Images](https://doi.org/10.1002/cyto.a.23863) - Comparing several deep learning methods for nuclear segmentation. 
+- [Automating Morphological Profiling with Generic Deep Convolutional Networks](https://doi.org/10.1101/085118) - Transfer of activation features of generic CNNs to extract features for image-based profiling.
 
 ## Contribute
 
