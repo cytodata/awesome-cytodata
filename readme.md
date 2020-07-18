@@ -67,6 +67,7 @@ Publications related to image-based profiling.
 - [Data-analysis strategies for image-based cell profiling](https://doi.org/10.1038/nmeth.4397) - Introduce the steps required to create high-quality image-based (i.e., morphological) profiles from a collection of microscopy images.
 - [High-content screening for quantitative cell biology](https://doi.org/10.1016/j.tcb.2016.03.008) - Describe some recent applications of HCS, ranging from the identification of genes required for specific biological processes to the characterization of genetic interactions.
 - [Microscopy-based high-content screening](https://doi.org/10.1016/j.cell.2015.11.007) - Describe the state of the art for image-based screening experiments and delineate experimental approaches and image-analysis approaches as well as discussing challenges and future directions, including leveraging CRISPR/Cas9-mediated genome engineering.
+- [Applications in image-based profiling of perturbations](https://doi.org/10.1016/j.copbio.2016.04.003) - Describes applications of image-based profiling including target and MOA identification, lead hopping, library enrichment, gene annotation and identification of disease-specific phenotypes
 
 ### Applications
 
