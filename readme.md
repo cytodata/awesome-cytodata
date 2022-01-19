@@ -33,7 +33,7 @@ Annotated datasets, including **raw images** and **processed profiles**, for ima
 - [Image Data Resource](https://idr.openmicroscopy.org/) - Public repository of image datasets from published scientific studies.
 - [RxRx1](https://www.rxrx.ai/rxrx1) - RxRx1 is a set of 125,514 high-resolution 512x512 6-channel fluorescence microscopy images of human cells under 1,108 genetic perturbations in 51 experimental batches across four cell types.  The images were produced by Recursion Pharmaceuticals in their labs in Salt Lake City, Utah.  Researchers will use this dataset for studying and benchmarking methods for dealing with biological batch effects, as well as areas in machine learning such as domain adaptation, transfer learning, and k-shot learning.
 - [RxRx19](https://www.rxrx.ai/rxrx19) - RxRx19 is the first morphological dataset that demonstrates the rescue of morphological effects of COVID-19. 
-- [Human Protein Atlas](https://www.proteinatlas.org/humanproteome/subcellular) - Among other assays, the HPA performed confocal imaging of displaying the location of more than 2/3 of human proteins in cell lines. Raw images or infered protein subcellular locations can be downloaded.
+- [Human Protein Atlas](https://www.proteinatlas.org/humanproteome/subcellular) - Among other assays, the HPA performed confocal imaging of displaying the location of more than 2/3 of human proteins in cell lines. [Raw images](https://github.com/CellProfiling/HPA-competition#script-to-download-hpav18) or [infered protein subcellular locations](https://www.proteinatlas.org/about/download) can be downloaded.
 
 ### Chemical Perturbations
 
@@ -74,10 +74,14 @@ Publications related to image-based profiling.
 - [High-content screening for quantitative cell biology](https://doi.org/10.1016/j.tcb.2016.03.008) - Describe some recent applications of HCS, ranging from the identification of genes required for specific biological processes to the characterization of genetic interactions.
 - [Microscopy-based high-content screening](https://doi.org/10.1016/j.cell.2015.11.007) - Describe the state of the art for image-based screening experiments and delineate experimental approaches and image-analysis approaches as well as discussing challenges and future directions, including leveraging CRISPR/Cas9-mediated genome engineering.
 - [Applications in image-based profiling of perturbations](https://doi.org/10.1016/j.copbio.2016.04.003) - Describes applications of image-based profiling including target and MOA identification, lead hopping, library enrichment, gene annotation and identification of disease-specific phenotypes
-- [Deep learning in microscopy](https://www.nature.com/collections/cfcdjceech) - A collection of review and research articles published in Nature Methods related to multiple use cases of deep learning, including noise reduction, segmentation, tracking and representation learning.
 - [Large-scale image-based screening and profiling of cellular phenotypes](https://doi.org/10.1002/cyto.a.22909) - Overview of image-based profiling, including its applications and challenges.
 - [How cells explore shape space: A quantitative statistical perspective of cellular morphogenesis](https://dx.doi.org/10.1002%2Fbies.201400011) - Discussion on the biology of cell shape changes based on quantitative descriptors.
 - [Machine learning and image-based profiling in drug discovery](https://doi.org/10.1016/J.COISB.2018.05.004) - Introduction to morphological profiling and discussion on what machine learning has to offer.
+
+### Collections
+
+- [Deep learning in microscopy](https://www.nature.com/collections/cfcdjceech) - A collection of review and research articles published in Nature Methods related to multiple use cases of deep learning, including noise reduction, segmentation, tracking and representation learning.
+- [High-Content Imaging and Informatics](https://journals.sagepub.com/toc/jbxb/25/7) - A collection of high-content imaging method and application articles published in SLAS Discovery.
 
 ### Applications
 
