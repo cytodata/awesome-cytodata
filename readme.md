@@ -11,6 +11,25 @@ These **biological phenotypes** are typically induced by genetic or chemical per
 This page represents a curated list of software, datasets, landmark publications, and image-based profiling methods.
 Our goal is to provide researchers, both new and established, a place to discover and document awesome Cytodata resources.
 
+## New content [unsorted]
+
+* 10.1126/science.adc9020
+* Update Haghighi et al 10.1038/s41592-022-01667-0
+* 10.1038/s41586-022-05028-x
+* 10.1038/s41592-022-01508-0
+* 10.1101/gr.276059.121 
+* 10.1371/journal.pcbi.1009888
+* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8997347/
+* BioProfiling.jl
+* 10.1038/nmeth.4391
+* 10.1038/s41587-020-0651-8
+* 10.1038/s41586-019-1876-x 
+* 10.1093/bioinformatics/btab497 
+* 10.1101/2022.06.07.495102
+* 10.1038/s41540-022-00212-1
+* 10.1016/j.cels.2022.08.003
+* 10.1016/j.cels.2022.10.001
+
 ## Contents
 
 - [Datasets](#datasets)
