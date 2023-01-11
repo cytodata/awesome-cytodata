@@ -11,25 +11,6 @@ These **biological phenotypes** are typically induced by genetic or chemical per
 This page represents a curated list of software, datasets, landmark publications, and image-based profiling methods.
 Our goal is to provide researchers, both new and established, a place to discover and document awesome Cytodata resources.
 
-## New content [unsorted]
-
-* 10.1126/science.adc9020
-* Update Haghighi et al 10.1038/s41592-022-01667-0
-* 10.1038/s41586-022-05028-x
-* 10.1038/s41592-022-01508-0
-* 10.1101/gr.276059.121 
-* 10.1371/journal.pcbi.1009888
-* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8997347/
-* BioProfiling.jl
-* 10.1038/nmeth.4391
-* 10.1038/s41587-020-0651-8
-* 10.1038/s41586-019-1876-x 
-* 10.1093/bioinformatics/btab497 
-* 10.1101/2022.06.07.495102
-* 10.1038/s41540-022-00212-1
-* 10.1016/j.cels.2022.08.003
-* 10.1016/j.cels.2022.10.001
-
 ## Contents
 
 - [Datasets](#datasets)
@@ -59,7 +40,7 @@ Annotated datasets, including **raw images** and **processed profiles**, for ima
 - [Gustafsdottir et al. 2013](https://doi.org/10.1371/journal.pone.0080999) - Cell painting profiles from 1,600 bioactive compounds in U2OS cells (Access from public S3 bucket: `s3://cytodata/datasets/Bioactives-BBBC022-Gustafsdottir/profiles/Bioactives-BBBC022-Gustafsdottir/`).
 - [Wawer et al. 2014](https://doi.org/10.1073/pnas.1410933111) - Cell painting profiles from 31,770 compounds in U2OS cells ([Click to download](http://www.broadinstitute.org/mlpcn/data/Broad.PNAS2014.ProfilingData.zip)).
 - [Bray et al. 2017](https://doi.org/10.1093/gigascience/giw014) - Cell painting profiles from 30,616 compounds in U2OS cells (Center Driven Research Project _CDRP_) ([Download from GigaDB](https://doi.org/10.5524/100351) | Access from public S3 bucket: `s3://cytodata/datasets/CDRPBIO-BBBC036-Bray/profiles_cp/CDRPBIO-BBBC036-Bray/`).
-- [Haghighi et al. 2021](https://doi.org/10.1101/2021.09.08.459417) - Cell painting matched to L1000 profiles in 4 experiments, including compound and genetic screens ([Details on GitHub](https://github.com/carpenterlab/2021_Haghighi_submitted)).
+- [Haghighi et al. 2021](https://doi.org/10.1038/s41592-022-01667-0) - Cell painting matched to L1000 profiles in 4 experiments, including compound and genetic screens ([Details on GitHub](https://github.com/carpenterlab/2021_Haghighi_submitted)).
 
 ### Genetic Perturbations
 
@@ -81,6 +62,7 @@ Open source software packages for image-based profiling of biological phenotypes
 - [BioProfiling.jl](https://github.com/menchelab/BioProfiling.jl) - Toolkit for filtering and curation of morphological profiles in Julia.
 - [PyCytominer](https://github.com/cytomining/pycytominer) - Methods for image-based cell profiling in Python.
 - [ImJoy](https://imjoy.io) - A platform compiling tool for deep-learning based image analyses with a GUI.
+- [histoCAT](https://github.com/BodenmillerGroup/histoCAT) - Toolbox to extract quantitative phenotypic descriptors and contextual information for histology and multiplex imaging.
 
 ## Publications
 
@@ -92,10 +74,11 @@ Publications related to image-based profiling.
 - [Data-analysis strategies for image-based cell profiling](https://doi.org/10.1038/nmeth.4397) - Introduce the steps required to create high-quality image-based (i.e., morphological) profiles from a collection of microscopy images.
 - [High-content screening for quantitative cell biology](https://doi.org/10.1016/j.tcb.2016.03.008) - Describe some recent applications of HCS, ranging from the identification of genes required for specific biological processes to the characterization of genetic interactions.
 - [Microscopy-based high-content screening](https://doi.org/10.1016/j.cell.2015.11.007) - Describe the state of the art for image-based screening experiments and delineate experimental approaches and image-analysis approaches as well as discussing challenges and future directions, including leveraging CRISPR/Cas9-mediated genome engineering.
-- [Applications in image-based profiling of perturbations](https://doi.org/10.1016/j.copbio.2016.04.003) - Describes applications of image-based profiling including target and MOA identification, lead hopping, library enrichment, gene annotation and identification of disease-specific phenotypes
+- [Applications in image-based profiling of perturbations](https://doi.org/10.1016/j.copbio.2016.04.003) - Describe applications of image-based profiling including target and MOA identification, lead hopping, library enrichment, gene annotation and identification of disease-specific phenotypes
 - [Large-scale image-based screening and profiling of cellular phenotypes](https://doi.org/10.1002/cyto.a.22909) - Overview of image-based profiling, including its applications and challenges.
 - [How cells explore shape space: A quantitative statistical perspective of cellular morphogenesis](https://dx.doi.org/10.1002%2Fbies.201400011) - Discussion on the biology of cell shape changes based on quantitative descriptors.
 - [Machine learning and image-based profiling in drug discovery](https://doi.org/10.1016/J.COISB.2018.05.004) - Introduction to morphological profiling and discussion on what machine learning has to offer.
+- [Pooled genetic screens with image-based profiling](https://doi.org/10.15252/msb.202110768) - Review of the different modalities available for genetic screens and which ones are suitable for morphological profiling.
 
 ### Collections
 
@@ -125,6 +108,13 @@ Publications related to image-based profiling.
 - [A map of directional genetic interactions in a metazoan cell](https://doi.org/10.7554/eLife.05464) - Characterizing genetic interactions by integrating 21 phenotypic descriptors.
 - [The phenotypic landscape of essential human genes](https://doi.org/10.1101/2021.11.28.470116) - Comparing morphological descriptors in a pooled CRISPR screen with in-situ sequencing
 - [Evaluation of Gene Expression and Phenotypic Profiling Data as Quantitative Descriptors for Predicting Drug Targets and Mechanisms of Action](https://doi.org/10.1101/580654) - Benchmarking profiling modalities, including image-based profiles, for mechanism of action prediction.
+- [The molecular architecture of cell cycle arrest](https://doi.org/10.15252/msb.202211087) - Comparing cellular features across stages of the cell cycle.
+- [Integrated intracellular organization and its variations in human iPS cells](https://doi.org/10.1038/s41586-022-05563-7) - decomposes cellular and nuclear shapes in 3D in multiple iPSC and study association between cellular structures.
+- [Single-cell metabolic profiling of human cytotoxic T cells](https://doi.org/10.1038/s41587-020-0651-8) - Combining metabolic profiling and spatial information to define immune subsets in tumor microenvironments.
+- [The single-cell pathology landscape of breast cancer](https://doi.org/10.1038/s41586-019-1876-x) - Defining cell populations and their interactions in breast cancer based on shape, intensity and contextual information from multiplexed imaging.
+- [Identification of phenotype-specific networks from paired gene expression–cell shape imaging data](https://doi.org/10.1101%2Fgr.276059.121) - Looking for gene networks underlying cellular morphology by matching expression and imaging data.
+- [Predicting drug polypharmacology from cell morphology readouts using variational autoencoder latent space arithmetic](https://doi.org/10.1371/journal.pcbi.1009888) - Model cell morphology with autoencoders to estimate effects of drug combinations.
+- [Deep Morphology Learning Enhances Ex Vivo Drug Profiling-Based Precision Medicine](https://doi.org/10.1158/2643-3230.BCD-21-0219) - Concrete description of how morphological information can be extracted from patient material and guide treatment.
 
 ### Methods
 
@@ -150,6 +140,9 @@ High-Content Imaging Screens](https://doi.org/10.1101/161422) - Embedding single
 representations of bioimaging data](https://doi.org/10.1101/2021.04.07.438792) - Method to visualize morphological profiles.
 - [CytoGAN: Generative Modeling of Cell Images](https://doi.org/10.1101/227645) - Generative network displaying potential for learning latent representation of biological conditions from cell images.
 - [Self-supervised feature extraction from image time series in plant phenotyping using triplet networks](https://doi.org/https://doi.org/10.1093/bioinformatics/btaa905) - Direct extraction of phenotypic features from plant images.
+- [Morphology and gene expression profiling provide complementary information for mapping cell state](https://doi.org/10.1016/j.cels.2022.10.001) - Comparison of the information contained in Cell Painting and L1000 assays for the same perturbations.
+- [Fully unsupervised deep mode of action learning for phenotyping high-content cellular images](https://doi.org/10.1093/bioinformatics/btab497) - Unsupervised approach to represent cellular morphology with clusters corresponding to meaningful relations such as mechanism of action. With an overview of deep learning methods for morphological profiling and classification.
+- [Automated high-speed 3D imaging of organoid cultures with multi-scale phenotypic quantification](https://doi.org/10.1038/s41592-022-01508-0) - Experimental and computational workflow to extract 3D morphological descriptors of organoids using light-sheet microscopy.
 
 ## Contribute
 
