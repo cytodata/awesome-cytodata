@@ -48,6 +48,7 @@ Annotated datasets, including **raw images** and **processed profiles**, for ima
 - [Rohban et al. 2017](https://doi.org/10.7554/eLife.24060.001) - Cell painting data from 220 overexpressed genes in U2OS cells (Access from public S3 bucket: `s3://cytodata/datasets/TA-ORF-BBBC037-Rohban/profiles_cp/TA-ORF-BBBC037-Rohban/`).
 - Unpublished - Cell painting profiles of 596 overexpressed alleles from 53 genes in A549 cells (Access from public S3 bucket: `s3://cytodata/datasets/LUAD-BBBC043-Caicedo/profiles_cp/LUAD-BBBC043-Caicedo/`)
 - Unpublished - 3,456 cell painting profiles from CRISPR experiments knocking down 59 genes in A549, ES2, and HCC44 cells ([Access from GitHub](https://github.com/broadinstitute/cell-health/tree/master/0.generate-profiles/data/profiles)).
+- [Wagner et al. 2025](https://doi.org/10.1101/2025.11.14.687149) - Cell painting profiles of 24 million single cells across five cell lines perturbed with 2,565 human and 1,900 mouse miRNA mimics (Access from the Cell Painting Gallery: `s3://cellpainting-gallery/cpg0046-microrna/` | [Analysis on GitHub](https://github.com/edbiomedai/microrna-reproducibility)).
 
 ## Software
 
@@ -63,6 +64,7 @@ Open source software packages for image-based profiling of biological phenotypes
 - [PyCytominer](https://github.com/cytomining/pycytominer) - Methods for image-based cell profiling in Python.
 - [ImJoy](https://imjoy.io) - A platform compiling tool for deep-learning based image analyses with a GUI.
 - [histoCAT](https://github.com/BodenmillerGroup/histoCAT) - Toolbox to extract quantitative phenotypic descriptors and contextual information for histology and multiplex imaging.
+- [scmorph](https://github.com/edbiomedai/scmorph) - Python package for analysis of single-cell image-based profiles ([JOSS paper](https://doi.org/10.21105/joss.08324)).
 
 ## Publications
 
@@ -79,6 +81,7 @@ Publications related to image-based profiling.
 - [How cells explore shape space: A quantitative statistical perspective of cellular morphogenesis](https://dx.doi.org/10.1002%2Fbies.201400011) - Discussion on the biology of cell shape changes based on quantitative descriptors.
 - [Machine learning and image-based profiling in drug discovery](https://doi.org/10.1016/J.COISB.2018.05.004) - Introduction to morphological profiling and discussion on what machine learning has to offer.
 - [Pooled genetic screens with image-based profiling](https://doi.org/10.15252/msb.202110768) - Review of the different modalities available for genetic screens and which ones are suitable for morphological profiling.
+- [Progress and new challenges in image-based profiling](https://doi.org/10.1038/s44320-026-00197-7) - 2026 community review of the image-based profiling pipeline, including emerging techniques and open challenges.
 
 ### Collections
 
