@@ -1,0 +1,31 @@
+
+[
+  {
+    "name": "CellProfiler",
+    "url": "https://github.com/CellProfiler/CellProfiler",
+    "doi": "10.1186/gb-2006-7-10-r100",
+    "description": "Open-source software for measuring biological phenotypes from images. It allows users to create modular pipelines for image processing and feature extraction.",
+    "tags": ["Feature Extraction", "Image Analysis"]
+  },
+  {
+    "name": "PyCytominer",
+    "url": "https://github.com/cytomining/pycytominer",
+    "doi": "N/A",
+    "description": "A Python package for processing image-based profiling data, including normalization, feature selection, and aggregation of single-cell data.",
+    "tags": ["Feature Processing", "Data Normalization"]
+  },
+  {
+    "name": "DeepProfiler",
+    "url": "https://github.com/cytomining/DeepProfiler",
+    "doi": "10.1101/2022.08.12.503783",
+    "description": "A software tool for learning feature representations from single cells in microscopy images using deep learning.",
+    "tags": ["Feature Extraction", "Deep Learning"]
+  },
+  {
+    "name": "scmorph",
+    "url": "https://github.com/edbiomedai/scmorph",
+    "doi": "10.21105/joss.08324",
+    "description": "A Python package for analysing single-cell morphological profiles without averaging across cells, combining single-cell hit calling and batch correction with the scverse ecosystem for feature selection and dimensionality reduction.",
+    "tags": ["Single-Cell Analysis", "Batch Correction"]
+  }
+]

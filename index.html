@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome CytoData</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              academic: {
+                50: '#fff7ed',   // Orange-50
+                100: '#ffedd5',  // Orange-100
+                500: '#f97316',  // Orange-500
+                600: '#ea580b',  // Orange-600
+                800: '#9a3412',  // Orange-800
+                900: '#7c2d12',  // Orange-900
+              },
+              gold: {
+                400: '#fbbf24',
+                500: '#f59e0b',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      @keyframes fadeSlideUp {
+        0% {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      
+      .animate-page-enter {
+        animation: fadeSlideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "fuse.js": "https://aistudiocdn.com/fuse.js@^7.1.0",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2",
+    "vite": "https://esm.sh/vite@^7.3.1"
+  }
+}
+</script>
+</head>
+  <body class="bg-white text-slate-900">
+    <div id="root"></div>
+    <!-- Explicitly import the index.tsx file -->
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

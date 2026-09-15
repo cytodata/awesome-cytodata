@@ -1,0 +1,81 @@
+[
+  {
+    "name": "The Cell Painting Gallery",
+    "url": "https://github.com/broadinstitute/cellpainting-gallery",
+    "doi": "10.1038/s41592-024-02399-z",
+    "description": "The Cell Painting Gallery is a collection of image datasets created using the Cell Painting assay (or similar); it is maintained by the Carpenter-Singh lab at the Broad Institute."
+  },
+  {
+    "name": "Broad Bioimage Benchmark Collection (BBBC)",
+    "url": "https://data.broadinstitute.org/bbbc/",
+    "doi": "10.1038/nmeth.2083",
+    "description": "The Broad Bioimage Benchmark Collection (BBBC) is a collection of freely downloadable microscopy image sets. Each set includes a description of the biological application and 'ground truth' expected results."
+  },
+  {
+    "name": "Broad Drug Repurposing Hub",
+    "url": "https://repo-hub.broadinstitute.org/repurposing#home",
+    "doi": "10.1038/nmeth.4306",
+    "description": "A curated and experimentally verified library of clinical drugs and compounds. It serves as a comprehensive resource for identifying new uses for existing medications by mapping drugs to their molecular targets and clinical development stages."
+  },
+  {
+    "name": "Image Data Resource (IDR)",
+    "url": "https://idr.openmicroscopy.org/",
+    "doi": "10.1038/nmeth.4326",
+    "description": "Public repository of image datasets from published scientific studies."
+  },
+  {
+    "name": "RxRx1",
+    "url": "https://www.rxrx.ai/rxrx1",
+    "doi": "10.48550/arXiv.2301.05768",
+    "description": "A set of 125,514 high-resolution 6-channel fluorescence microscopy images of human cells under 1,108 genetic perturbations in 51 experimental batches. Used for benchmarking batch effect correction, domain adaptation, and transfer learning. Type: multichannel fluorescence images, no masks. Size: 125,510 images across 1,138 siRNA perturbations in 51 batches."
+  },
+  {
+    "name": "RxRx19",
+    "url": "https://www.rxrx.ai/rxrx19",
+    "doi": "10.1101/2020.08.02.233064",
+    "description": "RxRx19 is the first morphological dataset that demonstrates the rescue of morphological effects of COVID-19."
+  },
+  {
+    "name": "RxRx3",
+    "url": "https://www.rxrx.ai/datasets",
+    "doi": "10.1101/2023.02.07.527350",
+    "description": "A massive dataset of human cells treated with drugs and gene knockouts, bridging the gap between chemical and genetic perturbation space. Type: 6-channel fluorescence microscopy, 2048x2048px 16-bit PNG. Size: 13,332,618 images from 2,222,103 wells (>100 TB). Dimensions: c6,y2048,x2048."
+  },
+  {
+    "name": "RxRx3-core",
+    "url": "https://www.rxrx.ai/datasets",
+    "doi": "10.48550/arXiv.2503.20158",
+    "description": "A benchmark dataset derived from RxRx3, focused on evaluating representation learning methods. Type: 6-channel Cell Painting (JPEG 2000 compressed) with precomputed embeddings. Size: 1,335,606 images from 222,601 wells (~18 GB). Dimensions: c6,y512,x512."
+  },
+  {
+    "name": "Human Protein Atlas",
+    "url": "https://www.proteinatlas.org/humanproteome/subcellular",
+    "doi": "10.1126/science.aal3321",
+    "description": "Confocal imaging displaying the location of more than 2/3 of human proteins in cell lines. Raw images or inferred protein subcellular locations can be downloaded. Type: immunofluorescence (nucleus, tubulin, ER, protein target), multi-label annotations. Size: 42,774 confocal images, ~28 subcellular classes. Dimensions: c4."
+  },
+  {
+    "name": "EU OPENSCREEN Bioimage Data",
+    "url": "https://zenodo.org/records/13309566",
+    "doi": "10.1101/2024.08.27.609964",
+    "description": "High-content imaging dataset from EU-OPENSCREEN, featuring phenotypic profiles of small molecules across multiple screening centers. Type: 6-dye, 4-channel Cell Painting, raw images and morphological profiles. Size: ~1.9 million images across 2,464 compounds. Dimensions: c4."
+  },
+  {
+    "name": "LIVECell",
+    "url": "https://sartorius-research.github.io/LIVECell/",
+    "doi": "10.1038/s41592-021-01249-6",
+    "description": "A large-scale, high-quality dataset of phase-contrast microscopy images for label-free cell segmentation and analysis. Type: phase-contrast images with expert segmentation masks. Size: 5,239 images, ~1.68 million labeled cells. Dimensions: c1."
+  },
+  {
+    "name": "Allen Cell WTC-11",
+    "url": "https://virtualcellmodels.cziscience.com/dataset/allencell-wtc11-hipsc-single-cell",
+    "doi": "10.1038/s41586-022-05563-7",
+    "description": "A comprehensive 3D single-cell dataset of human induced pluripotent stem cells (hiPSCs), featuring integrated intracellular organization and its variations across multiple cellular structures. Type: 3-channel fluorescence microscopy (mEGFP-tagged structure, cell membrane dye, DNA dye), single time-point per cell, 16-bit OME-TIFF. Size: 214,037 segmented cells from 18,100 fields of view across 25 CRISPR-tagged structures. Dimensions: c3, 50-150 z-slices per image (varies per crop)."
+  },
+  {
+    "name": "scGeneScope",
+    "url": "https://huggingface.co/datasets/altoslabs/scGeneScope/tree/main",
+    "doi": "N/A",
+    "paperUrl": "https://www.microsoft.com/en-us/research/publication/scgenescope-a-treatment-matched-single-cell-imaging-and-transcriptomics-dataset-and-benchmark-for-treatment-response-modeling/",
+    "description": "A treatment-matched multimodal dataset from U2-OS cells exposed to 28 chemical perturbations with distinct mechanisms of action, plus DMSO controls, profiled in parallel by Cell Painting imaging and single-cell RNA sequencing; the two modalities are conditionally paired by treatment/replicate condition rather than the same physical cell. Type: Cell Painting assay imaging (DNA, RNA, mitochondria, endoplasmic reticulum, actin/Golgi/plasma membrane stains) with CellPose-segmented, nucleus-centered 224x224 single-cell crops, paired with 10x Genomics Chromium Single Cell 3' v3.1 scRNA-seq gene-expression profiles. Size: 716,767 single-cell image crops and 627,704 single-cell RNA-seq profiles."
+  }
+]
