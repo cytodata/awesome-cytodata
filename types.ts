@@ -27,6 +27,7 @@ export interface Dataset {
   url: string;
   doi: string;
   description: string;
+  paperUrl?: string; // Fallback reference link when no DOI has been assigned yet
 }
 
 export interface Software {

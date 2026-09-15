@@ -70,5 +70,12 @@
     "url": "https://virtualcellmodels.cziscience.com/dataset/allencell-wtc11-hipsc-single-cell",
     "doi": "10.1038/s41586-022-05563-7",
     "description": "A comprehensive 3D single-cell dataset of human induced pluripotent stem cells (hiPSCs), featuring integrated intracellular organization and its variations across multiple cellular structures. Type: 3-channel fluorescence microscopy (mEGFP-tagged structure, cell membrane dye, DNA dye), single time-point per cell, 16-bit OME-TIFF. Size: 214,037 segmented cells from 18,100 fields of view across 25 CRISPR-tagged structures. Dimensions: c3, 50-150 z-slices per image (varies per crop)."
+  },
+  {
+    "name": "scGeneScope",
+    "url": "https://huggingface.co/datasets/altoslabs/scGeneScope/tree/main",
+    "doi": "N/A",
+    "paperUrl": "https://www.microsoft.com/en-us/research/publication/scgenescope-a-treatment-matched-single-cell-imaging-and-transcriptomics-dataset-and-benchmark-for-treatment-response-modeling/",
+    "description": "A treatment-matched multimodal dataset from U2-OS cells exposed to 28 chemical perturbations with distinct mechanisms of action, plus DMSO controls, profiled in parallel by Cell Painting imaging and single-cell RNA sequencing; the two modalities are conditionally paired by treatment/replicate condition rather than the same physical cell. Type: Cell Painting assay imaging (DNA, RNA, mitochondria, endoplasmic reticulum, actin/Golgi/plasma membrane stains) with CellPose-segmented, nucleus-centered 224x224 single-cell crops, paired with 10x Genomics Chromium Single Cell 3' v3.1 scRNA-seq gene-expression profiles. Size: 716,767 single-cell image crops and 627,704 single-cell RNA-seq profiles."
   }
 ]

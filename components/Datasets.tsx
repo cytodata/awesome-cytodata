@@ -92,8 +92,19 @@ export const Datasets: React.FC<DatasetsProps> = ({ datasets }) => {
                       </td>
                       <td className="whitespace-nowrap px-8 py-8 text-sm text-slate-500 align-top">
                           {dataset.doi && dataset.doi !== 'N/A' ? (
-                              <a 
+                              <a
                                   href={`https://doi.org/${dataset.doi}`}
+                                  target="_blank"
+                                  rel="noreferrer"
+                                  className="text-academic-600 hover:text-academic-800 font-black text-xs uppercase tracking-widest inline-flex items-center gap-2 hover:gap-3 transition-all"
+                                  aria-label={`Read paper for ${dataset.name}`}
+                              >
+                                  <span>Paper</span>
+                                  <i className="fa-solid fa-arrow-right"></i>
+                              </a>
+                          ) : dataset.paperUrl ? (
+                              <a
+                                  href={dataset.paperUrl}
                                   target="_blank"
                                   rel="noreferrer"
                                   className="text-academic-600 hover:text-academic-800 font-black text-xs uppercase tracking-widest inline-flex items-center gap-2 hover:gap-3 transition-all"
