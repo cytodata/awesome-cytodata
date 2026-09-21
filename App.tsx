@@ -72,7 +72,7 @@ const App: React.FC = () => {
             Awesome CytoData &bull; Built for the Open Science Community.
           </p>
           <div className="text-sm">
-            <a href="https://github.com/yourusername/awesome-profiling" className="hover:text-white underline">
+            <a href="https://github.com/cytodata/awesome-cytodata/" className="hover:text-white underline">
               Contribute on GitHub
             </a>
           </div>

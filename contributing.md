@@ -7,11 +7,11 @@ We welcome contributions from the community! This project is a curated knowledge
 The easiest way to contribute is by adding or updating records in our data files. You don't need deep coding knowledge: just a basic understanding of JSON.
 
 ### 1. Add a Research Paper (Literature)
-Papers are stored in `data/papers.json`. 
+Papers are stored in `public/data/papers.json`. 
 
 **Steps:**
 1. Fork the repository.
-2. Open `data/papers.json`.
+2. Open `public/data/papers.json`.
 3. Add a new entry to the end of the array.
 4. **Author Formatting Rule:** Please use the format `Lastname, F. I.` (Family name followed by First initial and Middle initial). The website automatically appends "et al." for display.
 
@@ -32,11 +32,11 @@ Papers are stored in `data/papers.json`.
 ```
 
 ### 2. Add a Dataset
-Datasets are stored in `data/datasets.json`.
+Datasets are stored in `public/data/datasets.json`.
 
 **Steps:**
 1. Fork the repository.
-2. Open `data/datasets.json`.
+2. Open `public/data/datasets.json`.
 3. Add a new entry to the array.
 
 **Example Dataset Entry:**
@@ -50,7 +50,7 @@ Datasets are stored in `data/datasets.json`.
 ```
 
 ### 3. Add Software
-Software tools are stored in `data/software.json`.
+Software tools are stored in `public/data/software.json`.
 
 **Example Software Entry:**
 ```json
@@ -69,7 +69,7 @@ Software tools are stored in `data/software.json`.
 - **Dataset metadata:** Where known, mention type, size, and dimensions as a short trailing sentence in the dataset `description` (e.g. "Type: ... Size: ... Dimensions: ...").
 - **Summary:** Keep the summary to 1-2 sentences. Focus on the *impact* or *utility* of the resource.
 - **Categories:** Use existing categories: `Biology`, `Reviews`, `Influential Papers`, `Applications`, `Methods`.
-- **Verification:** Ensure your JSON is valid (no trailing commas in the last element, all quotes are double quotes).
+- **Verification:** Run `npm run build` to validate the application after editing JSON (no trailing commas in the last element, all quotes are double quotes).
 
 ## Pull Request Process
 

@@ -1,8 +1,8 @@
 # 🔬 Awesome CytoData
 
-[![GitHub Pages](https://img.shields.io/badge/Hosted_on-GitHub_Pages-orange?style=flat-square&logo=github)](https://yourusername.github.io/awesome-cytodata)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
+[![GitHub Pages](https://img.shields.io/badge/Hosted_on-GitHub_Pages-orange?style=flat-square&logo=github)](https://www.cytodata.org/awesome-cytodata/)
+[![License: CC0](https://img.shields.io/badge/License-CC0-yellow.svg?style=flat-square)](license.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](contributing.md)
 
 **Awesome CytoData** is a website that collects research papers, software, and datasets related to image-based profiling in one place.
 
@@ -18,7 +18,7 @@ This website tries to help with that by:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is dedicated to the public domain under CC0 - see the [license](license.md) for details.
 
 ---
 
