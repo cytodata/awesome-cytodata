@@ -47,7 +47,7 @@ This application is built as a **serverless, static web app** optimized for GitH
 We want your input! If you have a new paper, a dataset release, or a software tool:
 
 1.  Read the [CONTRIBUTING.md](CONTRIBUTING.md) guide.
-2.  Update the relevant JSON file in the `data/` folder.
+2.  Run `python3 scripts/add_resource.py paper` or `python3 scripts/add_resource.py dataset` to add your entry (or edit the JSON files in `public/data/` by hand).
 3.  Open a Pull Request.
 
 ## 📄 License
