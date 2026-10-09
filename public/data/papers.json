@@ -743,5 +743,17 @@
     "summary": "A review of the evolving computational landscape of image-based profiling, from feature extraction and batch correction to deep learning, single-cell analysis, and emerging temporal and 3D data modalities, along with the field's remaining challenges.",
     "category": "Reviews",
     "url": "https://doi.org/10.1038/s44320-026-00197-7"
+  },
+  {
+    "id": "10.1146/annurev-cellbio-111524-111428",
+    "doi": "10.1146/annurev-cellbio-111524-111428",
+    "title": "From Pixels to Discovery: Microscopy Image Analysis in the Age of Artificial Intelligence",
+    "authors": ["Uhlmann, V.", "Jug, F.", "Kreshuk, A."],
+    "journal": "Annual Review of Cell and Developmental Biology",
+    "date_published": "2026-10-01",
+    "abstract": "Modern microscopy generates data volumes that far exceed human analytical capacity. Over the past decade, artificial intelligence (AI) has transformed microscopy image analysis into an engine for quantitative insights. This review retraces the evolution from supervised models automating tedious manual tasks, through self-supervised approaches uncovering patterns without annotations, to generative models learning the rules underlying biological processes. We examine the emerging trend toward universal visual representations with foundation models, while highlighting the persistent need for biological specialization. Looking forward, we identify factors that will be determinant in realizing the transformative potential of AI in microscopy: developing trustworthy models with calibrated uncertainty, training computationally fluent biologists, and building infrastructure to free microscopy image data from institutional silos. As AI transitions from accelerating existing analyses to driving discoveries, coordinated action across the scientific community will be required to ensure that microscopy image analysis develops as a transparent, equitable tool for understanding biology.",
+    "summary": "This review retraces the evolution from supervised models automating tedious manual tasks, through self-supervised approaches uncovering patterns without annotations, to generative models learning the rules underlying biological processes.",
+    "category": "Reviews",
+    "url": "https://doi.org/10.1146/annurev-cellbio-111524-111428"
   }
 ]

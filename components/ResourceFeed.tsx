@@ -109,10 +109,10 @@ export const ResourceFeed: React.FC<ResourceFeedProps> = ({ resources }) => {
              <span>Resource hub</span>
           </div>
           <h1 className="text-5xl sm:text-6xl font-black text-slate-900 tracking-tight mb-6">
-            The CytoData <span className="text-academic-600">corpus</span>
+            <span className="text-academic-600">Literature</span>
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl leading-relaxed font-medium">
-            Search through  publications, software releases, and biological breakthroughs in Image-based profiling.
+            Search through  publications, software releases, and biological findings in Image-based profiling.
           </p>
         </div>
 

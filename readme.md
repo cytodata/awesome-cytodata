@@ -4,11 +4,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 
-**Awesome CytoData** is a curated, high-performance knowledge hub dedicated to the field of image-based profiling. It serves the global scientific community by organizing influential research, open-source software, and public datasets into a single, searchable interface.
+**Awesome CytoData** is a website that collects research papers, software, and datasets related to image-based profiling in one place.
 
 ## 🌟 Purpose
 
-Image-based profiling (often associated with the **Cell Painting** assay) generates massive amounts of high-dimensional data from microscopy images. As the field expands rapidly, keeping track of the best practices, foundational papers, and emerging tools becomes challenging. 
+Image-based profiling (often done using the **Cell Painting** assay) produces large amounts of complex data from microscopy images. As the field grows, it gets harder to keep track of important papers, tools, and datasets.
 
 This project aims to:
 - **Centralize Knowledge**: Provide a "one-stop shop" for foundational and state-of-the-art research.

@@ -7,7 +7,6 @@ interface ResourceCardProps {
 }
 
 export const ResourceCard: React.FC<ResourceCardProps> = ({ resource, viewMode = 'grid' }) => {
-  const [expanded, setExpanded] = useState(false);
   const [copied, setCopied] = useState(false);
 
   const isInfluential = resource.category === Category.INFLUENTIAL;
@@ -80,16 +79,6 @@ export const ResourceCard: React.FC<ResourceCardProps> = ({ resource, viewMode =
           <p className="text-slate-600 font-medium leading-relaxed line-clamp-2 max-w-4xl text-lg">
             {resource.summary}
           </p>
-
-          {expanded && (
-            <div className="mt-6 p-6 bg-slate-50 rounded-2xl text-slate-700 border border-slate-100 animate-page-enter shadow-inner">
-               <div className="flex items-center justify-between mb-4">
-                  <strong className="text-[10px] font-black uppercase text-slate-400 tracking-[0.2em]">Abstract</strong>
-                  <span className="text-[10px] text-slate-400 font-black tracking-widest">{resource.doi}</span>
-               </div>
-               <p className="leading-relaxed font-medium text-lg">{resource.abstract}</p>
-            </div>
-          )}
         </div>
 
         {/* Utility Actions */}
@@ -111,14 +100,6 @@ export const ResourceCard: React.FC<ResourceCardProps> = ({ resource, viewMode =
               aria-label="Copy DOI to clipboard"
             >
               <i className={`fa-solid ${copied ? 'fa-check' : 'fa-copy'} text-xl`}></i>
-           </button>
-           <button 
-              onClick={() => setExpanded(!expanded)}
-              className="flex items-center justify-center h-12 w-12 text-slate-400 hover:text-academic-600 hover:bg-academic-50 rounded-xl transition-all hover:scale-110"
-              title={expanded ? "Collapse" : "Expand Details"}
-              aria-label={expanded ? "Collapse abstract" : "Expand abstract"}
-            >
-              <i className={`fa-solid ${expanded ? 'fa-chevron-up' : 'fa-chevron-down'} text-xl`}></i>
            </button>
         </div>
       </div>
@@ -169,37 +150,16 @@ export const ResourceCard: React.FC<ResourceCardProps> = ({ resource, viewMode =
           </div>
         </div>
 
-        <div className="bg-slate-50/80 p-5 rounded-2xl border border-slate-100 mb-6 group-hover:bg-academic-50/50 transition-colors">
-          <p className="text-slate-700 font-medium italic leading-relaxed">
-            "{resource.summary}"
-          </p>
-        </div>
-
-        {expanded && (
-          <div className="mt-6 pt-6 border-t border-slate-100 animate-page-enter">
-            <h4 className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-3">Abstract</h4>
-            <p className="text-sm text-slate-600 leading-relaxed font-medium">
-              {resource.abstract}
-            </p>
-          </div>
-        )}
       </div>
 
       <div className="px-8 py-6 bg-slate-50/50 border-t border-slate-100 flex justify-between items-center">
         <div className="flex gap-3">
-            <button 
-              onClick={() => setExpanded(!expanded)}
-              className="text-[10px] font-black text-slate-400 hover:text-academic-600 uppercase tracking-widest px-3 py-2 rounded-xl hover:bg-white transition-all shadow-sm"
-              aria-label={expanded ? "Hide abstract" : "Show abstract"}
-            >
-              {expanded ? 'Less' : 'Abstract'}
-            </button>
             <button
               onClick={copyCitation}
               className={`text-[10px] font-black uppercase tracking-widest px-3 py-2 rounded-xl transition-all shadow-sm ${copied ? 'text-green-600 bg-white' : 'text-slate-400 hover:text-academic-600 hover:bg-white'}`}
               aria-label="Copy DOI"
             >
-              {copied ? 'Copied' : 'Cite'}
+              {copied ? 'Copied' : 'COPY DOI'}
             </button>
         </div>
         <a 
