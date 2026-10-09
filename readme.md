@@ -10,11 +10,45 @@
 
 Image-based profiling (often done using the **Cell Painting** assay) produces large amounts of complex data from microscopy images. As the field grows, it gets harder to keep track of important papers, tools, and datasets.
 
-This website tries to help with that by:
-- Bringing together research papers, software, and datasets in one searchable place.
-- Pointing out papers the community considers foundational, so new researchers know where to start.
-- Linking to publicly available datasets and open-source software.
-- Making it easy to find DOIs and software repositories.
+This project aims to:
+- **Centralize Knowledge**: Provide a "one-stop shop" for foundational and state-of-the-art research.
+- **Lower Entry Barriers**: Help new researchers navigate "Influential Papers" selected by the community.
+- **Promote Open Science**: Highlight publicly available datasets and open-source pipelines.
+- **Standardize Discovery**: Offer a professional, searchable index for DOIs and software repositories.
+
+## 🚀 Key Features
+
+### 📚 The Literature Corpus
+- **Advanced Search**: Real-time fuzzy searching via [Fuse.js](https://www.fusejs.io/) across titles, authors, journals, and abstracts.
+- **Author Formatting**: Scientific citation style (`Lastname, F. et al.`) for professional scanning.
+- **Filtering**: Sort by year, category (Methods, Biology, Reviews, etc.), or influential status.
+- **Direct Access**: One-click DOI links to publisher pages.
+
+### 💾 Dataset Index
+- A curated table of massive public releases like the **Cell Painting Gallery**, **JUMP-CP**, and **RxRx**.
+- Filterable by description and reference paper.
+
+### 🛠️ Software Directory
+- Catalog of community-standard tools including **CellProfiler**, **DeepProfiler**, and **PyCytominer**.
+- Categorized by purpose (Feature Extraction, Data Engineering, etc.).
+
+## 🛠️ Technical Architecture
+
+This application is built as a **serverless, static web app** optimized for GitHub Pages:
+
+- **Frontend**: React 19+ (ESM-based via CDN for zero-install development).
+- **Styling**: Tailwind CSS for a clean, academic aesthetic.
+- **Search Engine**: Fuse.js for client-side fuzzy indexing of JSON data.
+- **Data Layer**: Flat JSON files in `/data/` acting as a "Local Database" for easy community contributions.
+- **Deployment**: Automated GitHub Actions workflow for validation and hosting.
+
+## 🤝 Contributing
+
+We want your input! If you have a new paper, a dataset release, or a software tool:
+
+1.  Read the [CONTRIBUTING.md](CONTRIBUTING.md) guide.
+2.  Run `python3 scripts/add_resource.py paper` or `python3 scripts/add_resource.py dataset` to add your entry (or edit the JSON files in `public/data/` by hand).
+3.  Open a Pull Request.
 
 ## 📄 License
 
