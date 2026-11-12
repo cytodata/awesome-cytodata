@@ -27,5 +27,12 @@
     "doi": "10.21105/joss.08324",
     "description": "A Python package for analysing single-cell morphological profiles without averaging across cells, combining single-cell hit calling and batch correction with the scverse ecosystem for feature selection and dimensionality reduction.",
     "tags": ["Single-Cell Analysis", "Batch Correction"]
+  },
+   {
+    "name": "rakaia",
+    "url": "https://github.com/camlab-bioml/rakaia",
+    "doi": "10.1101/2025.08.15.670550",
+    "description": "An interactive browser application for visualizing and analyzing cohort-scale spatial biology datasets including multiplexed imaging, spatial transcriptomics, and whole slide histology images, with end-to-end workflows for spatial single-cell analysis.",
+    "tags": ["Single-Cell Analysis", "Imaging", "Spatial biology"]
   }
 ]
